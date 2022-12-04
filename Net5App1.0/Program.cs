@@ -9,6 +9,7 @@ namespace Net5App1._0
         {
             Console.WriteLine("Hello World!");
             Console.WriteLine("Hello Tim!");
+            Console.Read();
         }
     }
 }
