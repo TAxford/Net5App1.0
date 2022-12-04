@@ -8,16 +8,23 @@ namespace Net5App1._0
         // Entry point of our program
         static void Main(string[] args)
         {
+            
+            int age = 15;
             //declaring a variable
-            int age = 15;            
             int num1;
             //assinging a value to a variable
             num1 = 13;
+
+            int num2 = 23;
+            int sum = num1 + num2;
 
             Console.WriteLine("Hello World!");
             Console.WriteLine("Hello Tim!");
             
             Console.WriteLine(age);
+            //using concantination
+            Console.WriteLine("num1 " + num1 + " + num2 " + num2 + " is " + sum);
+
 
             Console.Read();
         }
