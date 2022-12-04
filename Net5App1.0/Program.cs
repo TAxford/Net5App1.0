@@ -8,6 +8,7 @@ namespace Net5App1._0
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello Tim!");
         }
     }
 }
