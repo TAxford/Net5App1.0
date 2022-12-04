@@ -8,12 +8,18 @@ namespace Net5App1._0
         // Entry point of our program
         static void Main(string[] args)
         {
-            int age = 15;
+            //declaring a variable
+            int age = 15;            
+            int num1;
+            //assinging a value to a variable
+            num1 = 13;
 
             Console.WriteLine("Hello World!");
             Console.WriteLine("Hello Tim!");
-            Console.Read();
+            
             Console.WriteLine(age);
+
+            Console.Read();
         }
     }
 }
